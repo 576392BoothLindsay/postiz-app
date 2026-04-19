@@ -13,7 +13,8 @@
     "db:generate": "nx run backend:db:generate",
     "db:reset": "nx run backend:db:reset",
     "dev:frontend": "nx run frontend:serve",
-    "dev:backend": "nx run backend:serve"
+    "dev:backend": "nx run backend:serve",
+    "dev:debug": "nx run backend:serve --inspect"
   },
   "workspaces": [
     "apps/*",
