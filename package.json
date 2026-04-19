@@ -14,7 +14,8 @@
     "db:reset": "nx run backend:db:reset",
     "dev:frontend": "nx run frontend:serve",
     "dev:backend": "nx run backend:serve",
-    "dev:debug": "nx run backend:serve --inspect"
+    "dev:debug": "nx run backend:serve --inspect",
+    "dev:verbose": "nx run-many --target=serve --all --parallel --verbose"
   },
   "workspaces": [
     "apps/*",
@@ -70,7 +71,7 @@
     "typescript": "^5.0.0"
   },
   "engines": {
-    "node": ">=18.0.0",
+    "node": ">=20.0.0",
     "npm": ">=9.0.0"
   }
 }
