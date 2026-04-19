@@ -10,7 +10,8 @@
     "lint": "nx run-many --target=lint --all",
     "format": "prettier --write \"**/*.{ts,tsx,json,md}\"",
     "db:migrate": "nx run backend:db:migrate",
-    "db:generate": "nx run backend:db:generate"
+    "db:generate": "nx run backend:db:generate",
+    "db:reset": "nx run backend:db:reset"
   },
   "workspaces": [
     "apps/*",
