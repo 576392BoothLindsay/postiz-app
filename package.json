@@ -11,7 +11,9 @@
     "format": "prettier --write \"**/*.{ts,tsx,json,md}\"",
     "db:migrate": "nx run backend:db:migrate",
     "db:generate": "nx run backend:db:generate",
-    "db:reset": "nx run backend:db:reset"
+    "db:reset": "nx run backend:db:reset",
+    "dev:frontend": "nx run frontend:serve",
+    "dev:backend": "nx run backend:serve"
   },
   "workspaces": [
     "apps/*",
